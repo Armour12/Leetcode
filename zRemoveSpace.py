@@ -4,5 +4,5 @@ def remove(string):
     return string.replace(" ", "")
      
 # Driver Program
-string = 'First and Last Position of an Element In Sorted Array'
+string = 'Peak Index in a Mountain Array'
 print(remove(string))

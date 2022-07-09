@@ -27,7 +27,7 @@ int binarysearch( int arr[], int size, int key)
 int main()
 {
     int arr[10]={2,4,5,7,8,9,10,22,75};
-    int index= binarysearch(arr,9,73);
+    int index= binarysearch(arr,9,7);
     cout<<"The index the key is present is at "<<index;
     return 0;
 }

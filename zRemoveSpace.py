@@ -4,5 +4,5 @@ def remove(string):
     return string.replace(" ", "")
      
 # Driver Program
-string = 'Peak Index in a Mountain Array'
+string = 'Search In Rotated Sorted Array'
 print(remove(string))

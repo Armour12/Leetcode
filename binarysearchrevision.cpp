@@ -58,7 +58,7 @@ int main()
     // time_t now1 = time(0);
     auto duration = duration_cast<microseconds>(stop - start);
 
-    // // convert now to string form
+    // convert now to string form
     // char *dt1 = ctime(&now1);
 
     cout << "The end  time for normal binary search is: " << duration.count() << endl;
